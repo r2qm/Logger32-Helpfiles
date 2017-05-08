@@ -1,0 +1,107 @@
+
+Subject:
+[L32Team] RE: [adifdev] ADIF specification Address
+From:
+"'Jim Hargrave' w5ifp@gvtc.com [L32Team]" <L32Team@yahoogroups.com>
+Date:
+2017-04-23 12:38 PM
+To:
+<adifdev@yahoogroups.com>
+
+ 
+
+Thanks Graham,
+
+The direct link was what I needed: ( http://adif.org.uk/adif )
+
+I guess I was asleep at the wheel when you set this up.
+
+Thanks for the prompt response.
+
+73, Jim – w5ifp@gvtc.com
+
+ 
+
+From: adifdev@yahoogroups.com [mailto:adifdev@yahoogroups.com]
+Sent: Sunday, April 23, 2017 12:59 PM
+To: adifdev@yahoogroups.com
+Subject: RE: [adifdev] ADIF specification Address
+
+ 
+
+
+
+
+Hello Jim and Jamie.
+
+Yikes!!  The latest released version isn’t 3.0.4, it’s 3.0.5:
+http://adif.org.uk/305/ADIF_305.htm
+
+Dave AA6YQ mentioned the exact same thing some weeks ago, so I set up a link that will always redirect to the latest released version:
+http://adif.org.uk/adif
+
+(In my defence, this is mentioned on the home page: http://adif.org.uk – HI.)
+
+73 de Graham G3ZOD
+
+ 
+
+From: adifdev@yahoogroups.com [mailto:adifdev@yahoogroups.com]
+Sent: 23 April 2017 18:31
+To: adifdev@yahoogroups.com
+Subject: Re: [adifdev] ADIF specification Address
+
+ 
+
+ 
+
+I like the idea...
+
+Maybe /latest.htm or just /adif.htm could be a link to the latest version...
+
+ 
+
+ 
+
+El 23/4/2017 15:09, "'Jim Hargrave' w5ifp@gvtc.com [adifdev]" <adifdev@yahoogroups.com> escribió:
+
+     
+
+    Graham,
+
+    The current approved specification is located at “http://adif.org.uk/304/ADIF_304.htm”.
+
+    This is fine, however, Is there a permanent URL address where a user can always download the latest approved spec?
+
+     We need a stable address that does not change when a new version is approved.
+
+    We would like to include  a fixed reference in the Logger Help file.
+
+    73, Jim – w5ifp@gvtc.com
+
+     
+
+ 
+
+ 
+
+
+
+
+__._,_.___
+Posted by: "Jim Hargrave" <w5ifp@gvtc.com>
+Reply via web post 	• 	Reply to sender 	• 	Reply to group 	• 	Start a New Topic 	• 	Messages in this topic (1)
+Have you tried the highest rated email app?
+With 4.5 stars in iTunes, the Yahoo Mail app is the highest rated email app on the market. What are you waiting for? Now you can access all your inboxes (Gmail, Outlook, AOL and more) in one place. Never delete an email again with 1000GB of free cloud storage.
+Visit Your Group
+
+Yahoo! Groups
+• Privacy • Unsubscribe • Terms of Use
+
+.
+
+__,_._,___
+
+Attachments:
+image001.jpg	0 bytes
+image002.jpg	0 bytes
