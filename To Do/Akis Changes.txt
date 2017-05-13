@@ -1,0 +1,39 @@
+
+Subject:
+[L32Team] Help Beta 2
+From:
+"akira yoshida ja1nlx@yahoo.com [L32Team]" <L32Team@yahoogroups.com>
+Date:
+2017-05-13 4:03 PM
+To:
+L32Team <L32Team@yahoogroups.com>
+
+ 
+
+Hew
+
+
+In the LoTW Synchronization from Club Log please replace.....
+
+If you want to clear all LoTW credit granted stats in your Logbook then click “Delete all LoTW stats”. In this case you must download confirmed QSOs from LoTW with “If unchecked, all QSLs will be refreshed. This is much slower” unchecked.  If this option is checked then Logger32 get only newly credit granted flag. See LOTWCL_1
+
+with....
+
+Club Log has only very recently (May 2017)  introduced the capability of reporting QSOs that have been credited for DXCC by LoTW.  While Club Log may know of QSOs that are eligible for LoTW credit, it can not definitively say what of these QSOs loaded to Club Log prior to May 2017 have credit granted.  To update all your QSOs on Club Log, you need to UNcheck the option shown in LOTWCL_1.  This will refresh all your LoTW credits in the Club Log databases.  It's slower than normal, but it will ensure you get the most current LoTW credits.  You need only do this once.
+
+ 
+73 de aki  ja1nlx
+
+__._,_.___
+Posted by: akira yoshida <ja1nlx@yahoo.com>
+Reply via web post 	• 	Reply to sender 	• 	Reply to group 	• 	Start a New Topic 	• 	Messages in this topic (1)
+Have you tried the highest rated email app?
+With 4.5 stars in iTunes, the Yahoo Mail app is the highest rated email app on the market. What are you waiting for? Now you can access all your inboxes (Gmail, Outlook, AOL and more) in one place. Never delete an email again with 1000GB of free cloud storage.
+Visit Your Group
+
+Yahoo! Groups
+• Privacy • Unsubscribe • Terms of Use
+
+.
+
+__,_._,___
