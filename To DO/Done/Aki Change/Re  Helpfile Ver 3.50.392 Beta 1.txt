@@ -1,0 +1,55 @@
+
+Subject:
+Re: Helpfile Ver 3.50.392 Beta 1
+From:
+akira yoshida <ja1nlx@yahoo.com>
+Date:
+2019-08-14, 5:05 p.m.
+To:
+Hew Lines <hewlines@shaw.ca>
+
+Hew
+Thanks
+I found one thing to be changed in UDP BandMap. The Red text below should me removed.
+
+Logging QSO
+
+ 
+
+When QSO is logged in JTDX/WSJT-X this QSO is logged directly in Logger32. You should notice the difference between JTDX and WSJT-X:
+
+ 
+
+If you use JTDX you need no mouse clicking. The QSO is logged automatically in Logger32;
+
+ 
+
+If you use WSJT-X you need to click “OK” in the WSJT-X logging window in order to log the QSO in WSJT-X and Logger32;
+
+ 
+
+The “OK” and “Cancel” buttons appears here and there.
+
+ 
+
+If you use WSJT-X you see the WSJT-X logging window for a second when the QSO is logged in WSJT-X, then this QSO is logged automatically in Logger32.
+
+ 
+
+TIME_ON is not correctly logged if you use “Skip Tx1 enabled” in WSJT-X. This is a known issue in WSJT-X.
+
+ 
+
+
+
+73 de aki  ja1nlx
+
+
+On Thursday, August 15, 2019, 8:44:16 AM GMT+9, Hew Lines <hewlines@shaw.ca> wrote:
+
+
+Has just been posted to the GitHub site.
+
+73 Hew VA7HU
+
+
