@@ -1,0 +1,170 @@
+
+Subject:
+RE: Help changes for ver3.50.397
+From:
+"Jim Hargrave" <w5ifp@gvtc.com>
+Date:
+2019-10-03, 7:43 p.m.
+To:
+"'Aki Yoshida'" <ja1nlx@comcast.net>, "'Hew Lines'" <hewlines@shaw.ca>
+CC:
+"'Bob Furzer'" <k4cy@comcast.net>
+
+A few more Typos…                         I am using MS Word (2013)
+
+ 
+
+Text Below HEW_17B
+
+Flag new QSOs for QSL, Flag new QSOs for eQSL and Flag new QSOs for LoTW:
+
+Check item for which you want to flag automatically when QSO is logged.
+
+ 
+
+Second note after LBEW_3A
+
+Note: If the additional User Fields have been configured
+
+ 
+
+Above LBEW_8C
+
+(2017 only in LBEW_8D).
+
+ 
+
+Below LBEW_13 (what word to use.)
+
+If you want comments for a specific callsign already in the log to override the this comment, then click the middle check box. 
+
+ 
+
+Jim – w5ifp-
+
+ 
+
+From: Aki Yoshida [mailto:ja1nlx@comcast.net]
+Sent: Thursday, October 3, 2019 7:02 PM
+To: Hew Lines <hewlines@shaw.ca>; Jim Hargrave <w5ifp@gvtc.com>
+Cc: Bob Furzer <k4cy@comcast.net>
+Subject: Re: Help changes for ver3.50.397
+
+ 
+
+Hew and Jim
+
+ 
+
+I think this is better.
+
+and do you see "strike-out" line like this ?
+
+ 
+
+ 
+
+73 de aki
+JA1NLX
+
+    On October 3, 2019 at 7:53 PM Hew Lines <hewlines@shaw.ca> wrote:
+
+    TNX
+
+     
+
+    On 10/3/2019 4:47 PM, Aki Yoshida wrote:
+
+        Hew
+
+         
+
+        No problem. I will make new one.
+
+         
+
+        73 de aki
+        JA1NLX
+
+            On October 3, 2019 at 7:37 PM Hew Lines <hewlines@shaw.ca> wrote:
+
+            I need a new one Aki if you could. It would make it much easier to edit the HTML files.
+
+            73 Hew
+
+             
+
+            On 10/3/2019 4:34 PM, Aki Yoshida wrote:
+
+                OK
+
+                 
+
+                Now I understand what is wrong.
+
+                 
+
+                These document is written using LibreOffice. It looks OK of course.
+
+                However if this document is opened with WPS writer then pictures are placed wrongly.
+
+                 
+
+                So this is one of compatibility problem.
+
+                Previously document is written with WPS. I thought there were no problem.
+
+                 
+
+                If you need revised document then I will edited again with WPS writer. Your comment please.
+
+                 
+
+                 
+
+                73 de aki
+                JA1NLX
+
+                    On October 3, 2019 at 7:06 PM Jim Hargrave <w5ifp@gvtc.com> wrote:
+
+                    Problem…
+
+                    LBEW_3A display is messed up ???
+
+                     
+
+                    Par 3.0 is also messed   up
+
+                     
+
+                    Looks like pictures are placed among the text.
+
+                     
+
+                    Jim – w5ifp-
+
+                     
+
+                    From: Aki Yoshida [mailto:ja1nlx@comcast.net]
+                    Sent: Thursday, October 3, 2019 5:33 PM
+                    To: hewlines@shaw.ca; k4cy@comcast.net; w5ifp@gvtc.com
+                    Subject: Help changes for ver3.50.397
+
+                     
+
+                    These are for Hew to compile.
+                    Logbook entry window and Setup Menu.
+
+                     
+
+                    73 de aki
+                    JA1NLX
+
+
+                 
+
+
+         
+
+
+ 
