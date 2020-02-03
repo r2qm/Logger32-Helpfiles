@@ -1,0 +1,200 @@
+Return-Path: <bounce+15849+78294+478759+2036866@groups.io>
+Received: from mi02-ssvc.dcs.int.inet (LHLO mi02.dcs.int.inet)
+ (10.0.153.211) by cds236.dcs.int.inet with LMTP; Sun, 8 Dec 2019 13:43:07
+ -0700 (MST)
+Received: from web01.groups.io ([66.175.222.12])
+	by cmsmtp with ESMTP
+	id e3OTiVabxzfZue3OUi1IIc; Sun, 08 Dec 2019 13:43:07 -0700
+X-Authority-Analysis: v=2.3 cv=O6lHQy1W c=1 sm=1 tr=0 b=1 cx=a_idp_d
+ a=GO7X1oryhqFMJYRI0Kk6fQ==:117 a=GO7X1oryhqFMJYRI0Kk6fQ==:17
+ a=x7bEGLp0ZPQA:10 a=28lVZ1hlqCkA:10 a=pGLkceISAAAA:8 a=xjGz-wBMAAAA:8
+ a=_Dj-zB-qAAAA:8 a=n2XFCJuPRryywhX0JbAA:9 a=CjuIK1q_8ugA:10 a=z-aNoeO6urIA:10
+ a=uCtenggh-78A:10 a=vFzSyD7q4xgA:10 a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8
+ a=01GMF980_pEMSJIXJlsA:9 a=JSnOOutX5uikJMZD:21 a=gKO2Hq4RSVkA:10
+ a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10 a=frz4AuCg-hUA:10
+ a=dmbvPvuLAiAwK5y7oBu2:22 a=c-cOe7UV8MviEfHuAVEQ:22
+X-Received: by 127.0.0.2 with SMTP id iG2TYY480094xzskkQ5lEQL; Sun, 08 Dec 2019 12:43:05 -0800
+X-Received: from mail-yw1-f47.google.com (mail-yw1-f47.google.com [209.85.161.47])
+ by mx.groups.io with SMTP id smtpd.web11.2131.1575837781890440654
+ for <hamlogger@groups.io>;
+ Sun, 08 Dec 2019 12:43:02 -0800
+X-Received: by mail-yw1-f47.google.com with SMTP id 192so5048489ywy.0
+        for <hamlogger@groups.io>; Sun, 08 Dec 2019 12:43:01 -0800 (PST)
+X-Gm-Message-State: rhc2LnQ0s6yKT84vaS8fJVIJx478759AA=
+X-Google-Smtp-Source: APXvYqx+cJZGeW9kI66wuY6vZ9GhfGtwyPCKfDEHTw3OOWijT0b9a1E+KcI4bwnJw82K9wCLpx3L9w==
+X-Received: by 2002:a81:444:: with SMTP id 65mr17638363ywe.171.1575837780695;
+        Sun, 08 Dec 2019 12:43:00 -0800 (PST)
+X-Received: from JimI7 (h184-60-245-41.blrgga.dsl.dynamic.tds.net. [184.60.245.41])
+        by smtp.gmail.com with ESMTPSA id 138sm9230165ywj.94.2019.12.08.12.42.59
+        for <hamlogger@groups.io>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 08 Dec 2019 12:43:00 -0800 (PST)
+From: "Jim Altman" <jaltman636@gmail.com>
+To: <hamlogger@groups.io>
+Subject: [hamlogger] Help file corrections
+Date: Sun, 8 Dec 2019 15:42:59 -0500
+Message-ID: <001901d5ae08$14366c20$3ca34460$@gmail.com>
+MIME-Version: 1.0
+Thread-Index: AdWuBz6lukyy6Nr/SVebgs6LX622Ng==
+Precedence: Bulk
+List-Unsubscribe: <https://groups.io/g/hamlogger/unsub>
+Sender: hamlogger@groups.io
+List-Id: <hamlogger.groups.io>
+Mailing-List: list hamlogger@groups.io; contact hamlogger+owner@groups.io
+Delivered-To: mailing list hamlogger@groups.io
+Reply-To: hamlogger@groups.io
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_001A_01D5ADDE.2B60B240"
+Content-Language: en-us
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=groups.io;
+ q=dns/txt; s=20140610; t=1575837785;
+ bh=n2cRM4blJp5pvXPo5Rp1SCnmFLOx4svyfgpQU2acONI=;
+ h=Content-Type:Date:From:Reply-To:Subject:To;
+ b=uxoYEDb7GK1HB2TNBDbxgUpAFIQX/kdqJqEZri9DimD8Ej5vkhg4s7fcQbZ/4OqMat3
+ XTHBNZsRLbBKdJqdKU6XE/RvLV+q+q6gT3EC4+aT+DtXUR7YmaYfaKCf/Blt+1qV1MOXA
+ 9t4i/lTlFhEC4mlj6DcNgsjajlXU9zKl9aE=
+X-CMAE-Envelope: MS4wfCTBQ37osPebdquwf7YbjTrnjcNslHr1co+3qX4j2EFmuEygIq13EC23qXJ6PJNRyOnHYQUDZBKFoYczRwIObPISYfDzvjndIeqiUyFpMehBYX1NQaiR
+ cLwHQyBrX7QDllDlLspMQc6Orzo22JLlilLDo1x8xY5BO+UyXDMCEIuhtHfJaXjlyK4ZEvHxorEZM3amY0s3O9mm6Z1SWftlJO0=
+
+------=_NextPart_000_001A_01D5ADDE.2B60B240
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+In section 2.6.4 and 2.10.2 there are references to alerts section 2.9.5,
+but these should reference 2.10.5.  The clickable link in 2.10.2 does in
+fact, take you to 2.10.5 despite the text being wrong.  Thanks for all your
+hard work to unravel the many mysteries in the complexities of Logger32.
+
+ 
+
+73 de w4uck
+
+ 
+
+Jim Altman
+
+jaltman636@gmail.com
+
+ 
+
+
+-=-=-=-=-=-=-=-=-=-=-=-
+Groups.io Links: You receive all messages sent to this group.
+
+View/Reply Online (#78294): https://groups.io/g/hamlogger/message/78294
+Mute This Topic: https://groups.io/mt/67762683/478759
+Group Owner: hamlogger+owner@groups.io
+Unsubscribe: https://groups.io/g/hamlogger/leave/2036866/467206900/xyzzy  [va7hu@shaw.ca]
+-=-=-=-=-=-=-=-=-=-=-=-
+
+
+------=_NextPart_000_001A_01D5ADDE.2B60B240
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dus-ascii"><meta name=3DGenerator content=3D"Micro=
+soft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3D"#0563C=
+1" vlink=3D"#954F72"><div class=3DWordSection1><p class=3DMsoNormal>In sect=
+ion 2.6.4 and 2.10.2 there are references to alerts section 2.9.5, but thes=
+e should reference 2.10.5.&nbsp; The clickable link in 2.10.2 does in fact,=
+ take you to 2.10.5 despite the text being wrong.&nbsp; Thanks for all your=
+ hard work to unravel the many mysteries in the complexities of Logger32.<o=
+:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal=
+>73 de w4uck<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p cla=
+ss=3DMsoNormal>Jim Altman<o:p></o:p></p><p class=3DMsoNormal>jaltman636@gma=
+il.com<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body=
+></html>
+
+<div width=3D"1" style=3D"color:white;clear:both">_._,_._,_</div>
+<hr>
+Groups.io Links:<p>
+
+You receive all messages sent to this group.
+
+
+<p>
+
+<a target=3D"_blank" href=3D"https://groups.io/g/hamlogger/message/78294">=
+View/Reply Online (#78294)</a> |
+
+
+  <a target=3D"_blank" href=3D"mailto:hamlogger@groups.io?subject=3DRe:%20=
+%5Bhamlogger%5D%20Help%20file%20corrections">Reply To Group</a>
+  
+    | <a target=3D"_blank" href=3D"mailto:jaltman636@gmail.com?subject=3DP=
+rivate:%20Re:%20%5Bhamlogger%5D%20Help%20file%20corrections">Reply To Sende=
+r</a>
+  
+
+
+|
+
+
+  
+    <a target=3D"_blank" href=3D"https://groups.io/mt/67762683/478759">Mut=
+e This Topic</a>
+  
+
+| <a href=3D"https://groups.io/g/hamlogger/post">New Topic</a><br>
+
+
+
+<br>
+
+<a href=3D"https://groups.io/g/hamlogger/editsub/478759">Your Subscription=
+</a> |
+<a href=3D"mailto:hamlogger+owner@groups.io">Contact Group Owner</a> |
+
+<a href=3D"https://groups.io/g/hamlogger/leave/2036866/467206900/xyzzy">Un=
+subscribe</a>
+
+ [va7hu@shaw.ca]<br>
+<div width=3D"1" style=3D"color:white;clear:both">_._,_._,_</div>
+
+
+------=_NextPart_000_001A_01D5ADDE.2B60B240--
