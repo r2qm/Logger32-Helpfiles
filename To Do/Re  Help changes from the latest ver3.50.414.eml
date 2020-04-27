@@ -1,0 +1,259 @@
+Return-Path: <ja1nlx@comcast.net>
+Received: from mi08-ssvc.dcs.int.inet (LHLO mi08.dcs.int.inet)
+ (10.0.141.221) by cds236.dcs.int.inet with LMTP; Mon, 27 Apr 2020 07:34:11
+ -0600 (MDT)
+Received: from resqmta-po-07v.sys.comcast.net ([96.114.154.166])
+	by cmsmtp with ESMTP
+	id T3thjycx6wJnWT3tjjScwp; Mon, 27 Apr 2020 07:34:11 -0600
+Authentication-Results: mi08.dcs.int.inet;
+	dkim=pass header.d=comcast.net header.b=Ku5128Ww;
+	dmarc=pass header.from=comcast.net
+X-Authority-Analysis: v=2.3 cv=RsJe0BuK c=1 sm=1 tr=0 cx=a_idp_d
+ a=vjY53k9jrwd/rgHdbrZk7g==:117 a=cl8xLZFz6L8A:10 a=zh-eaAJ7AAAA:8
+ a=C_IRinGWAAAA:8 a=_Dj-zB-qAAAA:8 a=u3aWz8B7KPlE9V_K30YA:9 a=QEXdDO2ut3YA:10
+ a=KEW8gY8bnfow8Y6zwLIA:9 a=SD16mAGmSZgYlhlH:21 a=_W_S_7VecoQA:10
+ a=z-pUQg4ojLkCqcOT4a6X:22 a=c-cOe7UV8MviEfHuAVEQ:22
+Received: from resomta-po-10v.sys.comcast.net ([96.114.154.234])
+	by resqmta-po-07v.sys.comcast.net with ESMTP
+	id T3ebjfKQXdEXaT3thjAWP9; Mon, 27 Apr 2020 13:34:09 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=comcast.net;
+	s=20190202a; t=1587994449;
+	bh=jsxLVUjARVy+OIhdnvfyGAmLBDuR+2IAxWOIfvsyKpc=;
+	h=Received:Received:Date:From:Reply-To:To:Message-ID:Subject:
+	 MIME-Version:Content-Type;
+	b=Ku5128WwmZbx/9jH1FA1kpzEJdFnPESh8e7s/BAASp2nUbQ7bFiTLWclPIxj9f8LA
+	 OGQlUcRaySgFgg/HHgNwCENrljbpkL1AYTig06qt1Q/dh9uHmGpftpkDBRWA1EPI1L
+	 97oQfuEYclI0TvWRflOF4X/tTKtso9k6fB4RQ2gYpfHWDiTb15Vw4zS5mMREVLM2JJ
+	 iWPmZKPWEsMWDAy0gfwJd1RUGkXgFYB2j7uhatTdk2GtGSBrjMm5vpagR1cDZXvLup
+	 UP+M2QT6hHq1mhuGT6PgnvA/RJj7uE+GhY+JXaVeyK7+nap4Ayh4RYGPTqckHhYCbd
+	 l02CQfJmXNZhQ==
+Received: from oxapp-hoc-13o.email.comcast.net ([96.118.241.121])
+	by resomta-po-10v.sys.comcast.net with ESMTPS
+	id T3tgjhQcuQwtLT3tgjkFbZ; Mon, 27 Apr 2020 13:34:08 +0000
+X-Xfinity-VAAS: gggruggvucftvghtrhhoucdtuddrgeduhedrheelgdeihecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucevohhmtggrshhtqdftvghsihdpqfgfvfdppffquffrtefokffrnecuuegrihhlohhuthemuceftddtnecuogfthfevqddquegrugfkmhhpohhrthgrnhgtvgculddvtddmnecujfgurhepfffhrhfvkfgjfhfugggtrfgkofhisegrtdgssgertdejnecuhfhrohhmpeetkhhiucgjohhshhhiuggruceojhgrudhnlhigsegtohhmtggrshhtrdhnvghtqeenucfkphepleeirdduudekrddvgedurdduvddupddvgedtheemieehkedumeegfegrtdemudektddtmegutghfsgemudgrkegtmeeisgdtleemhegsudehnecuvehluhhsthgvrhfuihiivgeptdenucfrrghrrghmpehhvghlohepohigrghpphdqhhhotgdqudefohdrvghmrghilhdrtghomhgtrghsthdrnhgvthdpihhnvghtpeeliedruddukedrvdeguddruddvuddpmhgrihhlfhhrohhmpehjrgdunhhlgiestghomhgtrghsthdrnhgvthdprhgtphhtthhopeifhehifhhpsehgvhhttgdrtghomhdprhgtphhtthhopehvrgejhhhusehshhgrfidrtggrpdhrtghpthhtohepkhegtgihsegtohhmtggrshhtrdhnvght
+X-Xfinity-VMeta: sc=20.00;st=legit
+Date: Mon, 27 Apr 2020 09:34:06 -0400 (EDT)
+From: Aki Yoshida <ja1nlx@comcast.net>
+Reply-To: Aki Yoshida <ja1nlx@comcast.net>
+To: Jim Hargrave <w5ifp@gvtc.com>, Hew Lines <va7hu@shaw.ca>
+Cc: k4cy@comcast.net
+Message-ID: <724409425.613901.1587994448071@connect.xfinity.com>
+In-Reply-To: <001801d61c8f$e37d2960$aa777c20$@gvtc.com>
+References: <001801d61c8f$e37d2960$aa777c20$@gvtc.com>
+Subject: RE: Help changes from the latest ver3.50.414
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_613900_785193093.1587994448052"
+X-Priority: 3
+Importance: Medium
+X-Mailer: Open-Xchange Mailer v7.10.0-Rev31
+X-Originating-IP: 2405:6581:43a0:1800:dcfb:1a8c:6b09:5b15
+X-Originating-Client: open-xchange-appsuite
+X-CMAE-Envelope: MS4wfPBcUzI2vaNyZHRbuvM07ZdKqjQHkRwnuaxDJ464iLkh0dC8VNpExIarEjBVAZxCYAe+T0QO2DxqsIeoIgk895X6c6s6kF1dt1N+x83svk71v5HDS50d
+ RpRigzsCaune9+bwplSs6IE57ZjjDi6lDMm88JVFA0hJbXP/DaXgqi5z83U5JNM1DNJ6tV+6cnGNIA==
+
+------=_Part_613900_785193093.1587994448052
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hew
+
+Please.....
+
+
+
+73 de aki
+JA1NLX
+
+> On April 27, 2020 at 8:32 AM Jim Hargrave <w5ifp@gvtc.com> wrote:
+>=20
+>=20
+>     Aki, looks good=E2=80=A6
+>=20
+>     =20
+>=20
+>     CWM  Typos
+>=20
+>     =20
+>=20
+>     2.1.2
+>=20
+>           o   Check proper pin configuration.
+>=20
+>     =20
+>=20
+>     NOTES
+>=20
+>           4        The connections to points X, Y and Z in the above diag=
+ram should be made in accordance with the following table (standard pin con=
+figuration):=20
+>=20
+>                5    You may choose reverse pin configuration option in th=
+e Setup table for Software keyer, RTS pin for CW keying and DTR pin for PTT=
+. See CWM_6
+>=20
+>         =20
+>=20
+>     =20
+>=20
+>     UBM typos
+>=20
+>     =20
+>=20
+>     To enable Cherry-picking, check =E2=80=9CCherry-picking=E2=80=9D box.=
+ To disable Cherry-picking, uncheck =E2=80=9CCherry-picking box. If you cli=
+ck callsign in UDP BandMap(Manual calling) then Cherry-picking is disabled
+>=20
+>     =20
+>=20
+>     =20
+>=20
+>     Jim =E2=80=93 w5ifp-
+>=20
+>     =20
+>=20
+>     From: Aki Yoshida [mailto:ja1nlx@comcast.net]
+>     Sent: Sunday, April 26, 2020 9:46 PM
+>     To: Hew Lines <va7hu@shaw.ca>; k4cy@comcast.net; w5ifp@gvtc.com
+>     Subject: Help changes fro the latest ver3.50.414
+>=20
+>     =20
+>=20
+>     These are for Hew to compile.
+>=20
+>     =20
+>=20
+>     73 de aki
+>     JA1NLX
+>=20
+
+
+
+------=_Part_613900_785193093.1587994448052
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html>
+ <head>=20
+  <meta charset=3D"UTF-8">=20
+ </head>
+ <body>
+  <div style=3D"font-size: 12pt; font-family: helvetica, arial, sans-serif;=
+ color: #333333;">
+   Hew
+   <br>
+  </div>
+  <div style=3D"font-size: 12pt; font-family: helvetica, arial, sans-serif;=
+ color: #333333;">
+   <br>
+  </div>
+  <div style=3D"font-size: 12pt; font-family: helvetica, arial, sans-serif;=
+ color: #333333;">
+   Please.....
+   <br>
+  </div>
+  <div class=3D"io-ox-signature">
+   <p><span style=3D"color: #000000;">&nbsp;</span></p>
+   <p><span style=3D"color: #000000;"><span style=3D"font-family: helvetica=
+,arial,sans-serif; font-size: 12pt; background-color: #ffffff;">73 de aki<b=
+r>JA1NLX<br></span></span></p>
+  </div>
+  <blockquote type=3D"cite">
+   On April 27, 2020 at 8:32 AM Jim Hargrave &lt;w5ifp@gvtc.com&gt; wrote:=
+=20
+   <br>=20
+   <br>
+   <div class=3D"ox-31ba21ccd1-WordSection1">
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;">Aki, looks good=E2=80=
+=A6 </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;"> &nbsp; </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;">CWM &nbsp;Typos </span>=
+</p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;"> &nbsp; </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;">2.1.2 </span></p>
+    <p style=3D"margin-left: .75in; text-indent: -.25in;" class=3D"ox-31ba2=
+1ccd1-MsoNormal"><span style=3D"font-family: 'Courier New';">o<span style=
+=3D"font: 7.0pt 'Times New Roman';">&nbsp;&nbsp; </span></span> Check prope=
+r pin <span style=3D"color: red;">configuration.</span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"color: red;"> &nbsp=
+; </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal">NOTES</p>
+    <p style=3D"margin-left: .75in; text-indent: -.25in;" class=3D"ox-31ba2=
+1ccd1-MsoListParagraph">4<span style=3D"font: 7.0pt 'Times New Roman';">&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> The connections to points X=
+, Y and Z in the above diagram should be made in accordance with the follow=
+ing table (standard pin <span style=3D"color: red;">configuration)</span>:&=
+nbsp;</p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp; You may choose reverse =
+pin <span style=3D"color: red;">configuration </span>option in the Setup ta=
+ble for Software keyer, RTS pin for CW keying and DTR pin for PTT. See CWM_=
+6</p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal">&nbsp;&nbsp;&nbsp; &nbsp;</p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"color: red;"> &nbsp=
+; </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;">UBM typos </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;"> &nbsp; </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-family: 'Liber=
+ation Sans',sans-serif; color: black;">To enable Cherry-picking, </span><sp=
+an style=3D"font-family: 'Liberation Sans',sans-serif;">check =E2=80=9CCher=
+ry-picking=E2=80=9D box. To disable Cherry-picking, uncheck =E2=80=9CCherry=
+-picking box. If you click callsign in UDP BandMap(Manual<span style=3D"col=
+or: red;"> calling) </span>then Cherry<span style=3D"color: red;">-picking =
+</span>is disabled</span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;"> &nbsp; </span></p>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;"> &nbsp; </span></p>
+    <div>
+     <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt;=
+ font-family: 'Calibri',sans-serif; color: #1f497d;">Jim =E2=80=93 w5ifp-</=
+span></p>
+    </div>
+    <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-size: 11.0pt; =
+font-family: 'Calibri',sans-serif; color: #1f497d;"> &nbsp; </span></p>
+    <div style=3D"border: none; border-left: solid blue 1.5pt; padding: 0in=
+ 0in 0in 4.0pt;">
+     <div>
+      <div style=3D"border: none; border-top: solid #E1E1E1 1.0pt; padding:=
+ 3.0pt 0in 0in 0in;">
+       <p class=3D"ox-31ba21ccd1-MsoNormal"><strong><span style=3D"font-siz=
+e: 11.0pt; font-family: 'Calibri',sans-serif;">From:</span></strong><span s=
+tyle=3D"font-size: 11.0pt; font-family: 'Calibri',sans-serif;"> Aki Yoshida=
+ [mailto:ja1nlx@comcast.net] <br><strong>Sent:</strong> Sunday, April 26, 2=
+020 9:46 PM<br><strong>To:</strong> Hew Lines &lt;va7hu@shaw.ca&gt;; k4cy@c=
+omcast.net; w5ifp@gvtc.com<br><strong>Subject:</strong> Help changes fro th=
+e latest ver3.50.414 </span></p>
+      </div>
+     </div>
+     <p class=3D"ox-31ba21ccd1-MsoNormal">&nbsp;</p>
+     <div>
+      <p class=3D"ox-31ba21ccd1-MsoNormal"><span style=3D"font-family: 'Hel=
+vetica',sans-serif; color: #333333;">These are for Hew to compile. </span><=
+/p>
+     </div>
+     <div>
+      <p><span style=3D"color: black;">&nbsp;</span></p>
+      <p><span style=3D"font-family: 'Helvetica',sans-serif; color: black; =
+background: white;">73 de aki<br>JA1NLX</span></p>
+     </div>
+    </div>
+   </div>
+  </blockquote>
+  <div style=3D"font-size: 12pt; font-family: helvetica,arial,sans-serif; c=
+olor: #333333;" class=3D"default-style">
+   <br>&nbsp;
+  </div>=20
+ </body>
+</html>
+------=_Part_613900_785193093.1587994448052--
