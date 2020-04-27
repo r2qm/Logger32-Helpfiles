@@ -1,0 +1,102 @@
+
+Subject:
+Re: [hamlogger] 1st Question for hamlogger@groups.io
+From:
+"Jim Hargrave" <w5ifp@gvtc.com>
+Date:
+2020-04-18, 4:28 p.m.
+To:
+<hamlogger@groups.io>
+
+For the latest help file, Go to;
+
+ 
+
+https://github.com/VA7HU/Logger32-Helpfiles/releases
+
+ 
+
+Download  “Logger32.chm” and copy it to the Logger32 folder
+
+Select it with a right click, and select Properties, check “unlock” and apply.
+
+You can now open the file direct or via help with Logger32 running.
+
+ 
+
+Jim – w5ifp-
+
+ 
+
+From: hamlogger@groups.io [mailto:hamlogger@groups.io] On Behalf Of Herbert Slade
+Sent: Saturday, April 18, 2020 5:22 PM
+To: hamlogger@groups.io
+Subject: Re: [hamlogger] 1st Question for hamlogger@groups.io
+
+ 
+
+Hi Jim,
+
+A little different subject.  I need a Logger32 searchable manual.  Can you show me where I can download that?  It is too difficult to find things in a PDF manual.
+
+Herb AA2BF
+
+    On April 5, 2020 at 2:06 PM Jim Hargrave <w5ifp@gvtc.com> wrote:
+
+    Hi Herb,
+
+    I’m glad you got it going. Be sure and let it auto-update to ver 3.50.411.
+
+    I wish you luck on getting WSJT interfaced.
+
+    I prefer JTDX. It seems to provides a better interface with Logger32.
+
+     
+
+    Jim – w5ifp-
+
+     
+
+    From: hamlogger@groups.io [mailto:hamlogger@groups.io] On Behalf Of Herbert Slade
+    Sent: Sunday, April 5, 2020 12:41 PM
+    To: hamlogger@groups.io
+    Subject: Re: [hamlogger] 1st Question for hamlogger@groups.io
+
+     
+
+    Jim,
+
+     
+
+    At last !  I got Logger32 full 350 installed.  All my previously entered QSOs were intact, as well as the backups I had done.  Now, I am practicing the manual processes I am rusty on, and am about to get a bunch of recent ft8 QSOs automatically entered from WSJT-X storage.
+
+     
+
+    Thank you for all your directions and advice, not to mention a lot of patience for my need to ask questions about things I was unfamiliar to.
+
+     
+
+    I am not leaving the Logger group, but since it generates a lot of email, I intend to change my group email to another email.
+
+     
+
+    73,
+
+    Herb Slade AA2BF
+
+     
+
+     
+
+
+ 
+
+_._,_._,_
+Groups.io Links:
+
+You receive all messages sent to this group.
+
+View/Reply Online (#79692) | Reply To Group | Reply To Sender | Mute This Topic | New Topic
+
+Your Subscription | Contact Group Owner | Unsubscribe [hewlines@shaw.ca]
+_._,_._,_
